@@ -1,0 +1,55 @@
+.Authentication {
+  padding-top: 110px;
+  background-color: #f0f3f7;
+  height: 100vh;
+
+  .ant-card.ant-card-bordered {
+    width: 412px;
+    margin: auto;
+    border: none;
+    .ant-card-body {
+      background-color: #f0f3f7;
+      padding: 0px;
+    }
+  }
+  .ant-tabs {
+    width: 412px;
+    .ant-tabs-nav {
+      margin-bottom: 24px;
+    }
+    .ant-tabs-tab {
+      width: 206px;
+      margin: 0px;
+      justify-content: center;
+      background: #f0f3f7;
+    }
+  }
+
+  .ant-input {
+    height: 38px;
+  }
+  .ant-input-affix-wrapper {
+    padding: 0px 11px;
+    input#basic_password {
+      height: 38px;
+    }
+  }
+  button.ant-btn.ant-btn-primary {
+    width: 100%;
+  }
+  .center {
+    text-align: center;
+  }
+  .footer {
+    width: 100%;
+    position: fixed;
+    bottom: 24px;
+    p {
+      color: #8c8c8c;
+      font-size: 20px;
+      opacity: 1;
+      width: fit-content;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.login {
+  .actionSignIn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    height: 19px;
+    .forgotPass {
+      font-size: 14px;
+      color: #1890ff;
+      cursor: pointer;
+    }
+  }
+  .site-form-item-icon {
+    color: #1890ff;
+  }
+}
